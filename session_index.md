@@ -2,6 +2,21 @@
 *Generated: 2026-02-17*
 *Bullet summaries of recent sessions. Full transcripts searchable via jq.*
 
+### 2026-02-16 — Security Audit of Claude D's 26 Marketing Skills
+- Claude D committed 26 marketing/brand skills (59 files, ~15,500 lines) to `.agents/skills/`
+- Ran 5-layer security audit: pattern scanner, 2x deep SKILL.md reads, Occy/LICENSE/refs check, Wall Mode
+- VERDICT: 25 SAFE, 1 minor flag (brand-guidelines claims Anthropic branding — reputational risk only)
+- Zero prompt injection, zero exfiltration, zero overrides, zero credential exposure
+- Skills sourced from coreyhaines31/marketingskills (25) + anthropics/skills (1)
+- All are pure marketing reference material with no code execution capability
+
+### 2026-02-17 — Positioning Paper Logos + TDS Branding + Claude Y Guide
+- Added transparent logos (landscape + square) to AIpulse positioning paper cover and footer
+- Fixed capitalisation to "AIpulse" (small p) throughout entire document
+- Changed "The David Score" to "TDS (The David Score)" — abbreviation from day one
+- Wrote Claude Y Memory Upgrade Guide (`docs/Claude-Y-Memory-Upgrade.md`) — memory system + context meter setup
+- Guide updated: Claude Y seeds memories from his own files, not ours
+
 ### 2026-02-17 — AIpulse Strategy Analysis ("Ideas from the Big Guys")
 - Read 25-page PDF with strategic advice from Grok, ChatGPT, Kimi 2.5, Gemini, DeepSeek
 - Extracted ~65 green highlights Jono marked as important across 6 themes
