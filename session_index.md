@@ -1,6 +1,13 @@
 # Claude J — Session Index (30 days)
-*Generated: 2026-02-16 18:15*
+*Generated: 2026-02-16 20:30*
 *Bullet summaries of recent sessions. Full transcripts searchable via jq.*
+
+### 2026-02-16 ~20:30 — 6-Layer Prompt Injection Defense
+- Built 6-layer defense: pre-scan regex, canary injection, boundary hardening, hardened prompt, output validation, cross-gate consistency
+- Wall Mode verified all layers correct, found 4 false-positive patterns → removed
+- Commit `fe3eb55` pushed to AIpulse (includes 8 previously-staged files from pipeline build)
+- Each gate gets independent canaries + boundaries, defense metadata in `_defense` field
+- 16 injection patterns (down from 20 after false-positive fix)
 
 ### 2026-02-16 ~18:15 — Security Audit + Wall Fix + Red Team
 - Wall Mode audit of 4-gate pipeline found 7 vulnerabilities, all patched (commit `69a121f`)
@@ -9,7 +16,6 @@
 - Patched: Zip Slip, command injection, gate error bypass, AI truncation bypass, race condition, file leak, .env leak
 - Family bulletin updated with Wall fix instructions for Claude D/Y
 - Clawdbot Wall fix NOT yet committed (local only)
-- **NEXT SESSION: Answer Jono's question "how do we deal with the 11 security risks?"**
 
 ### 2026-02-16 ~14:30 — AIpulse Security Pipeline BUILT
 - Implemented COMPLETE 4-gate security scanning pipeline (910 lines, 4 new files, 6 modified)
