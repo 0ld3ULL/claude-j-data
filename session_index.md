@@ -1,6 +1,15 @@
 # Claude J — Session Index (30 days)
-*Generated: 2026-02-16 20:30*
+*Generated: 2026-02-17*
 *Bullet summaries of recent sessions. Full transcripts searchable via jq.*
+
+### 2026-02-17 — AIpulse Strategy Analysis ("Ideas from the Big Guys")
+- Read 25-page PDF with strategic advice from Grok, ChatGPT, Kimi 2.5, Gemini, DeepSeek
+- Extracted ~65 green highlights Jono marked as important across 6 themes
+- All 5 AIs independently recommended trust/safety scoring — AIpulse already has David Score + 4-gate pipeline
+- Top priorities confirmed: user level filter, Top AI News (5-10 stories), compare pages, trending sections
+- Jono's future vision: agent-to-agent marketplace, AIpulse as trust layer for the agent economy
+- Full analysis saved to `docs/aipulse-big-guys-analysis.md`
+- Next session: plan and build launch features from the analysis
 
 ### 2026-02-16 ~20:30 — 6-Layer Prompt Injection Defense
 - Built 6-layer defense: pre-scan regex, canary injection, boundary hardening, hardened prompt, output validation, cross-gate consistency

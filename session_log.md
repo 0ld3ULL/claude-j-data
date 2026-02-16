@@ -1,9 +1,44 @@
 # Claude J — Session Log
-*Auto-saved: 2026-02-16 20:30*
+*Auto-saved: 2026-02-17 ~afternoon*
 *Purpose: Persistent session state — survives context resets*
 *This is Claude J's data. NOT shared with Claude D or Claude Y.*
 
 ## Recent Sessions (most recent first)
+
+### Session: 2026-02-17 — AIpulse Strategy Analysis ("Ideas from the Big Guys")
+
+**What was done this session:**
+
+#### 1. Read & Analysed 25-page PDF from 5 Major AIs
+Jono collected strategic advice from Grok, ChatGPT, Perplexity/Kimi 2.5, Gemini, and DeepSeek on the AIpulse concept. All 5 independently recommended trust/safety scoring as the #1 differentiator — which AIpulse already has (David Score + 4-gate security pipeline).
+
+#### 2. Extracted Jono's Green Highlights
+Used PyMuPDF to extract green-highlighted passages from the PDF. Found ~65 highlights across 6 themes:
+- User segmentation / "Who are you?" toggle (most highlighted)
+- Skills/Pieces marketplace concept
+- Trust, safety & verification
+- News, trending & freshness
+- Creator incentives & community
+- Agent-to-Agent economy (future vision)
+
+#### 3. Full Analysis Report Saved
+Saved comprehensive report to `docs/aipulse-big-guys-analysis.md` with:
+- Summary of each AI's approach
+- All green highlights grouped by theme
+- Recommendations for what to build and when
+- Updated 4-phase priority list
+- What to skip/deprioritize
+
+#### 4. Key Jono Decisions/Notes
+- Wants **Top AI News** section (5-10 stories) on homepage
+- Believes agents are the future — every human will have multiple agents within a year
+- Wants AIpulse positioned as the trusted middle layer for the agent economy
+- Noted OpenClaw founder joined OpenAI (promised to keep it open source)
+- Plans to return and build a proper plan from this analysis
+
+**Git state:** Report committed and pushed. No code changes — strategy/planning session only.
+
+**Next session:** Plan and build AIpulse launch features from the priority list in the analysis.
 
 ### Session: 2026-02-16 ~20:30 — 6-Layer Prompt Injection Defense BUILT
 
