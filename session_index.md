@@ -1,6 +1,15 @@
 # Claude J — Session Index (30 days)
-*Generated: 2026-02-16 14:30*
+*Generated: 2026-02-16 18:15*
 *Bullet summaries of recent sessions. Full transcripts searchable via jq.*
+
+### 2026-02-16 ~18:15 — Security Audit + Wall Fix + Red Team
+- Wall Mode audit of 4-gate pipeline found 7 vulnerabilities, all patched (commit `69a121f`)
+- Fixed Wall Mode token truncation (Gemini thinking tokens eating output budget, 8000→65536)
+- Red team analysis found 11 attack vectors — prompt injection in code comments is scariest
+- Patched: Zip Slip, command injection, gate error bypass, AI truncation bypass, race condition, file leak, .env leak
+- Family bulletin updated with Wall fix instructions for Claude D/Y
+- Clawdbot Wall fix NOT yet committed (local only)
+- **NEXT SESSION: Answer Jono's question "how do we deal with the 11 security risks?"**
 
 ### 2026-02-16 ~14:30 — AIpulse Security Pipeline BUILT
 - Implemented COMPLETE 4-gate security scanning pipeline (910 lines, 4 new files, 6 modified)
